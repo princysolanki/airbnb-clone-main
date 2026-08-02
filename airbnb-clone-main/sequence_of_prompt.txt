@@ -1,0 +1,15 @@
+1. redesign the photo tour header and category thumbnail grid to match the reference screenshot, scale up the thumbnail dimensions so the first row renders exactly 8 items, and center the overall layout with symmetric left/right margins matching the main content container.
+
+2. revert the sticky/pinned positioning currently applied to the category thumbnail nav, it should scroll away with the page content instead of remaining fixed. additionally, remove the close (x) control entirely, and strip the text labels from the back/share/save buttons while retaining their icon-only affordances.
+
+3. rebalance the two-column grid ratio in each photo tour row, increase the width allocation of the heading/amenities column and proportionally reduce the width of the photo gallery column, per the reference screenshot.
+
+4. locate the matching house-icon asset under public/images and render it inline immediately before the "anywhere" label within the search pill component.
+
+5. source the yellow discount-tag icon asset from public/images and substitute it for the current green/emoji tag icon on the discount promo card.
+
+6. draft a structured prompt suitable for feeding into lucid.app (or a comparable ai-assisted diagramming tool) to auto-generate a production-scale system architecture diagram covering frontend scaling, backend service decomposition, storage/persistence strategy, search infrastructure, and deployment topology, per the assignment's architecture-diagram deliverable requirements.
+
+7. yes, tailor the proposed microservice/domain list to reflect the actual entities modeled in lib/listing-data.ts (amenities, reviews, host, booking/calendar, location, nearby stays, photo gallery) instead of using generic marketplace placeholders.
+
+8. compile the complete chronological sequence of prompts issued in this session, preserving original intent and context, restyle each into a more technically-worded engineering request, normalize all text to lowercase, and persist the result to sequence_of_prompt.txt.
